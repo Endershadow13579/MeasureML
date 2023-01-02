@@ -1,5 +1,3 @@
-# MeasureML
-Person Measurement system
 # MEASURAI USER MANUAL
 ###### DISCLAIMER (THIS SYSTEM ONLY WORKS WITH GOOGLE COLAB AND RESULTS ARE ONLY FROM GOOGLE COLAB)
 ### The System works by running an image through Google's Body Position Detection model API to estimate where on the image each part of the body is. Then we take the pixel distance, and using the height of the person as a metric, we calculate the measurement of each part of the body, then using a distortion correction algorithm. Then using a custom correction algorthim created from 30 sample images of different people using the afformentioned Google calculation and their actual relavent measurements. we make the system more accurate. 
